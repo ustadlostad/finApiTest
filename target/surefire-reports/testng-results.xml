@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="5781" started-at="2021-03-21T20:50:36 EET" finished-at="2021-03-21T20:50:42 EET">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="5781" started-at="2021-03-21T20:50:36 EET" finished-at="2021-03-21T20:50:42 EET">
+      <class name="Tests">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:Tests@3e9b1010]" name="initialization" is-config="true" duration-ms="4071" started-at="2021-03-21T20:50:36 EET" finished-at="2021-03-21T20:50:40 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="getMovieList()[pri:0, instance:Tests@3e9b1010]" name="getMovieList" duration-ms="327" started-at="2021-03-21T20:50:40 EET" finished-at="2021-03-21T20:50:40 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMovieList -->
+        <test-method status="PASS" signature="pickRandomMovie()[pri:1, instance:Tests@3e9b1010]" name="pickRandomMovie" duration-ms="270" started-at="2021-03-21T20:50:40 EET" finished-at="2021-03-21T20:50:41 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pickRandomMovie -->
+        <test-method status="PASS" signature="getMovieDetail()[pri:2, instance:Tests@3e9b1010]" name="getMovieDetail" duration-ms="259" started-at="2021-03-21T20:50:41 EET" finished-at="2021-03-21T20:50:41 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMovieDetail -->
+        <test-method status="PASS" signature="PostRating()[pri:3, instance:Tests@3e9b1010]" name="PostRating" duration-ms="432" started-at="2021-03-21T20:50:41 EET" finished-at="2021-03-21T20:50:41 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostRating -->
+        <test-method status="PASS" signature="deleteRating()[pri:3, instance:Tests@3e9b1010]" name="deleteRating" duration-ms="373" started-at="2021-03-21T20:50:41 EET" finished-at="2021-03-21T20:50:42 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteRating -->
+      </class> <!-- Tests -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
